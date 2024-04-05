@@ -39,7 +39,7 @@ https://openweathermap.org/
 
 [4] Beispielskript 1 (os124)
 
-"https://github.com/Articles/IT-Administrator/Sonderheft 1 2024 PowerShell/(072-076)/Cmdlets performant und benutzerfreundlich erstellt/GetSoftware.ps1"
+https://github.com/thorstenbutz/Articles/tree/4ddc1529e62e4b8fbcddf01d037ed0f6c33fde12/IT-Administrator/Sonderheft%201%202024%20PowerShell/(072-076)%20Cmdlets%20performant%20und%20benutzerfreundlich%20erstellt
 
  
 
