@@ -1,2 +1,2 @@
 # Articles
-My articles from IT journals, typically in German
+My articles from IT journals, typically in German. 

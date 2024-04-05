@@ -1,0 +1,16 @@
+properties:
+  assertions:
+    - resource:  Microsoft.Windows.Developer/OSVersion
+      directives:
+        description: Verifiy minimum OS version
+        allowPrerelease: true
+      settings:
+        MinVersion: '10.0.22000'  ## Windows 11 (21H2)
+  resources:
+    - resource: Microsoft.Windows.Developer/TaskBarAlignment
+      directives:
+        description: Set taskbar alignment to left
+        allowPrerelease: true
+      settings:
+        Alignment: Left 
+  configurationVersion: 0.1.0

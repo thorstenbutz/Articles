@@ -1,0 +1,56 @@
+{
+  // General settings
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 23,
+  "terminal.integrated.fontSize": 23,
+  "debug.openDebug": "neverOpen",
+  "editor.tabCompletion": "on",
+
+  // PowerShell settings
+  "powershell.integratedConsole.focusConsoleOnExecute": false,
+  "files.defaultLanguage": "powershell",
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "powershell.buttons.showPanelMovementButtons": true,  
+  // "powershell.codeFormatting.autoCorrectAliases": true,
+  
+
+  // Encoding
+  "[powershell]": {
+    "files.encoding": "utf8bom",
+    "files.autoGuessEncoding": true
+  },
+
+  // Disable "annoying" snippets and suggestions
+  "editor.snippetSuggestions": "bottom", // "none" disables these suggestions
+  "editor.parameterHints.enabled": false,
+  "powershell.scriptAnalysis.enable": false,  
+  "powershell.helpCompletion": "Disabled", // Disable comment based help completion style triggered by typing 2 hashes
+
+  // Editor 
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+
+  // Disable minimap 
+  "editor.minimap.enabled": false,
+
+  // Zen Mode
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+
+  // Theming (Examples)
+  "workbench.colorTheme": "PowerShell ISE",
+  "workbench.colorCustomizations": {
+    "[PowerShell ISE]": {
+      "terminal.background": "#222222",
+      "editor.lineHighlightBackground": "#e5e3ff",
+      "editor.selectionBackground": "#e5e3ff",
+      "editor.selectionHighlightBackground": "#ffffdd"
+    }
+  },
+  
+  // Allow comments in JSON
+  "files.associations": {
+    "*.json": "jsonc"
+  }
+}
